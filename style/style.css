@@ -152,6 +152,13 @@ body {
   border: 1px solid #fff;
 }
 
+.attribution {
+  justify-content: center;
+}
+.attribution a {
+  color: #696fdd;
+}
+
 @media (min-width: 992px) {
   .cards .card {
     margin: 0;
