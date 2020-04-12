@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/973e1e5e78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Frontend Mentor | Pricing Component With Toggle</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 titleSection">
+                <h3 class="title">
+                    Our Pricing
+                </h3>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-3 md-3 sm-12 toggleSection">
+                <h6 class="annually">Annually</h6>
+                <div class="toggleContainer">
+                    <div class="toggleButton"></div>
+                </div>
+                <h6 class="monthly">Monthly</h6>
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="col-lg-3 md-3 sm-12 xs-12 card" id="basic">
+                <h6 class="title">Basic</h6>
+                <div class="price">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h6>19.99</h6>
+                </div>
+                <hr>
+                <h6 class="feature">500 GB Storage</h6>
+                <hr>
+                <h6 class="feature">2 Users Allowed</h6>
+                <hr>
+                <h6 class="feature">Send up to 3 GB</h6>
+                <hr>
+                <button class="learnMore">LEARN MORE</button>
+            </div>
+            <div class="col-lg-3 md-3 sm-12 xs-12 card" id="professional">
+                <h6 class="title">Professional</h6>
+                <div class="price">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h6>24.99</h6>
+                </div>
+                <hr>
+                <h6 class="feature">1 TB Storage</h6>
+                <hr>
+                <h6 class="feature">5 Users Allowed</h6>
+                <hr>
+                <h6 class="feature">Send up to 10 GB</h6>
+                <hr>
+                <button class="learnMore">LEARN MORE</button>
+            </div>
+            <div class="col-lg-3 md-3 sm-12 xs-12 card" id="master">
+                <h6 class="title">Master</h6>
+                <div class="price">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h6>39.99</h6>
+                </div>
+                <hr>
+                <h6 class="feature">2 TB Storage</h6>
+                <hr>
+                <h6 class="feature">10 Users Allowed</h6>
+                <hr>
+                <h6 class="feature">Send up to 20 GB</h6>
+                <hr>
+                <button class="learnMore">LEARN MORE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="js/toggle_switch.js"></script>
+</body>
+
+</html>
